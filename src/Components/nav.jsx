@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Style/nav.css'
+import { Link } from 'react-router-dom'
 function Nav({ searchTerm, setSearchTerm }) {
   return (
     <>
@@ -21,8 +22,8 @@ function Nav({ searchTerm, setSearchTerm }) {
 
         </div>
         <div className="signup-login-div">
-          <button className="signup-login-btn1">Sign up</button>
-          <button className="signup-login-btn">Login</button>
+        <Link to="/Signup" className="signup-login-btn1">Sign up</Link> 
+        <Link to="/Login" className="signup-login-btn">Login</Link>
         </div>
       </div>
     </>

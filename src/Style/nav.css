@@ -59,7 +59,7 @@ h5{
     border: 2px solid rgb(74, 74, 215);
     
 }
-input{
+.search>input{
     border: none;
     outline: none;
     background-color: transparent;
@@ -85,6 +85,8 @@ svg{
     border-radius: 0.5rem;
     border: 2px solid rgb(74, 74, 215);
     width: 100px;
+    text-align: center;
+    
 }
 .signup-login-btn1{
     background-color: transparent;
@@ -93,6 +95,7 @@ svg{
     border-radius: 0.5rem;
     border: 2px solid rgb(74, 74, 215);
     width: 100px;
+    text-align: center;
 }
 .signup-login-btn1:hover{
     background-color: rgb(74, 74, 215);

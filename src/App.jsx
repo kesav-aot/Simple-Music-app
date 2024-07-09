@@ -1,17 +1,19 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from './Components/nav';
 import './App.css';
 import Songs from './Components/Songs';
 import Artist from './Components/Artist';
 import MusicControl from './Components/musicControl';
-import { Fade } from '@mui/material';
+import Signup from './Components/Signup';
+import Login from './Components/Login';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [songs, setSongs] = useState([]);
   const [playing, setPlaying] = useState(null);
-  const valueRef = useRef("");
-  const songRef = useRef("");
+  const valueRef = useRef(null);
+  const songRef = useRef(null);
 
   const initialSongs = [
     {
@@ -86,8 +88,8 @@ function App() {
       img_src: 'https://cdn.sanity.io/images/zhgxj6ko/production/28e86705f63f0dd82ddcad915d839ac1ff599737-1024x1024.jpg?auto=format',
       src: './src/assets/songs/lofi2.mp3'
     },
-    
   ];
+
   const handlePlayPause = (song) => {
     if (playing && playing.src === song.src) {
       playing.audio.pause();
@@ -96,9 +98,8 @@ function App() {
       if (playing) {
         playing.audio.pause();
       }
-      song.audio.pause();
+      song.audio.play();
       setPlaying(song);
-
     }
   };
 
@@ -129,9 +130,21 @@ function App() {
       />
       <Artist searchTerm={searchTerm} />
       <MusicControl playing={playing} />
-      <div> <p>© 2023. All Rights Reserved.</p></div>
+      <div><p>© 2023. All Rights Reserved.</p></div>
     </>
   );
 }
 
-export default App;
+function AppWrapper() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default AppWrapper;
