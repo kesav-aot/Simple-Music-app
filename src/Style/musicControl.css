@@ -1,0 +1,29 @@
+.audio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(72, 83, 243);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 2px solid rgb(74, 74, 215);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    fill: blue;
+    max-width: 600px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}

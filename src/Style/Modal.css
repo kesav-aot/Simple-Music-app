@@ -1,0 +1,60 @@
+.blue-modal-content {
+  background-color:  rgb(14, 14, 15);
+  color: rgb(88, 99, 200);
+}
+
+.blue-modal-header {
+ background-color: aliceblue;
+  color: rgb(96, 205, 248);
+  border-bottom: 1px solid #0056b3;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.blue-modal-body {
+  padding: 1rem;
+}
+
+.blue-modal-footer {
+  border-top: 1px solid #0056b3;
+  color: black;
+}
+ 
+.btn-close {
+  background-color: rgb(88, 88, 241);
+}
+
+
+.btn4 {
+  background-color: transparent;
+  color: rgb(97, 97, 229);
+  border: 2px solid rgb(74, 74, 215);
+  border-radius: 0.5rem;
+  width: 100px;
+  border: none;
+}
+
+.songCards3{
+   background-color: rgb(50, 49, 50);
+   width: 450px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 0.5rem;
+   color: white;
+   margin: 0 auto;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   font-family: 'Inter', sans-serif;
+   padding: 1rem;
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 8px );
+   -webkit-backdrop-filter: blur( 8px );
+   padding: 10px;
+   border: 2px solid rgb(74, 74, 215);
+
+}

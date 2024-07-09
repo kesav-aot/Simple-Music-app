@@ -1,0 +1,107 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+   background-color: rgb(38, 35, 35);
+   width: 100%;
+   padding: 1rem;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+
+    
+}
+a{
+    text-decoration: none;
+}
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    filter: drop-shadow(0 0 0.75rem rgb(74, 74, 215));
+}
+.nav-logo-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(74, 74, 215);
+    text-shadow: 0 0 0.75rem rgb(74, 74, 215);
+}
+.Home-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(74, 74, 215);
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(74, 74, 215);
+    
+}
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(245, 244, 244);
+    
+}
+svg{
+    color: rgb(74, 74, 215);
+    width: 20px;
+    height: 20px;
+
+}
+.signup-login-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.signup-login-btn{
+    background-color: rgb(74, 74, 215);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(74, 74, 215);
+    width: 100px;
+}
+.signup-login-btn1{
+    background-color: transparent;
+    color: rgb(74, 74, 215);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(74, 74, 215);
+    width: 100px;
+}
+.signup-login-btn1:hover{
+    background-color: rgb(74, 74, 215);
+    color: white;
+    transition: ease-in-out 0.5s;
+    
+}
+.signup-login-btn:hover{
+    background-color: blue;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
