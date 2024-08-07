@@ -20,7 +20,7 @@ function App() {
       title: 'Rainy Day Vibes',
       artist: 'Sleepy Fish',
       img_src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThJmT-HgMm37VZikgMPdksxBh8VZr6FmCu_Q&s',
-      src: "./src/assets/songs/lofi1.mp3"
+      src: "./assets/songs/lofi1.mp3"
     },
     {
       title: 'Autumn Leaves',
@@ -32,61 +32,61 @@ function App() {
       title: 'Chill Study',
       artist: 'Sleepy Fish',
       img_src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKxLWLQczhTD12WfNMrC2qGLxwlCSNNj7NHA&s',
-      src: './src/assets/songs/lofi2.mp3'
+      src: './assets/songs/lofi2.mp3'
     },
     {
       title: 'Afternoon Drive',
       artist: 'Philanthrope',
       img_src: 'https://i.scdn.co/image/ab67616d00001e028cf47bc256b732a9467e61bb',
-      src: './src/assets/songs/lofi3.mp3'
+      src: './assets/songs/lofi3.mp3'
     },
     {
       title: 'Rainy Night Study',
       artist: 'Sleepy Fish',
       img_src: 'https://i.scdn.co/image/ab67616d0000b2735419c0986ee778b7489da418',
-      src: './src/assets/songs/music.mp3'
+      src: './assets/songs/music.mp3'
     },
     {
       title: 'Autumn Breeze',
       artist: 'Philanthrope',
       img_src: 'https://cdn.sanity.io/images/zhgxj6ko/production/28e86705f63f0dd82ddcad915d839ac1ff599737-1024x1024.jpg?auto=format',
-      src: './src/assets/songs/music2.mp3'
+      src: './assets/songs/music2.mp3'
     },
     {
       title: 'Chill Beats',
       artist: 'Sleepy Fish',
       img_src: 'https://miro.medium.com/v2/resize:fit:1358/0*FjF2hZ8cJQN9aBxk.jpg',
-      src: './src/assets/songs/jb3.mp3'
+      src: './assets/songs/jb3.mp3'
     },
     {
       title: 'Autumn Nostalgia',
       artist: 'Philanthrope',
       img_src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfjnv-uTzOlGhQyANPCNfLw3VDtVH2vhRfvA&s',
-      src: './src/assets/songs/jb1.mp3'
+      src: './assets/songs/jb1.mp3'
     },
     {
       title: 'Rainy Day Study',
       artist: 'Sleepy Fish',
       img_src: 'https://w0.peakpx.com/wallpaper/561/395/HD-wallpaper-lo-fi-girl-listening-music-ultra-artistic-anime-girl-music-listening-lofi.jpg',
-      src: './src/assets/songs/jb2.mp3'
+      src: './assets/songs/jb2.mp3'
     },
     {
       title: 'Autumn Reflections',
       artist: 'Philanthrope',
       img_src: 'https://cdn.sanity.io/images/zhgxj6ko/production/28e86705f63f0dd82ddcad915d839ac1ff599737-1024x1024.jpg?auto=format',
-      src: './src/assets/songs/music3.mp3'
+      src: './assets/songs/music3.mp3'
     },
     {
       title: 'Chill Playlist',
       artist: 'Sleepy Fish',
       img_src: 'https://miro.medium.com/v2/resize:fit:1358/0*FjF2hZ8cJQN9aBxk.jpg',
-      src: ''
+      src: './assets/songs/jb1.mp3'
     },
     {
       title: 'Autumn Solace',
       artist: 'Philanthrope',
       img_src: 'https://cdn.sanity.io/images/zhgxj6ko/production/28e86705f63f0dd82ddcad915d839ac1ff599737-1024x1024.jpg?auto=format',
-      src: './src/assets/songs/lofi2.mp3'
+      src: './assets/songs/lofi2.mp3'
     },
   ];
 
